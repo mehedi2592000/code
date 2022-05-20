@@ -1,0 +1,8 @@
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\bin\Debug\Insertion_Sort.exe.config
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\bin\Debug\Insertion_Sort.exe
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\bin\Debug\Insertion_Sort.pdb
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.csproj.AssemblyReference.cache
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.exe
+D:\Problem_Solving\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.pdb

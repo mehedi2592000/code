@@ -1,0 +1,8 @@
+D:\Problem_Solving\Selection_sort\Selection_sort\bin\Debug\Selection_sort.exe.config
+D:\Problem_Solving\Selection_sort\Selection_sort\bin\Debug\Selection_sort.exe
+D:\Problem_Solving\Selection_sort\Selection_sort\bin\Debug\Selection_sort.pdb
+D:\Problem_Solving\Selection_sort\Selection_sort\obj\Debug\Selection_sort.csproj.AssemblyReference.cache
+D:\Problem_Solving\Selection_sort\Selection_sort\obj\Debug\Selection_sort.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Selection_sort\Selection_sort\obj\Debug\Selection_sort.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Selection_sort\Selection_sort\obj\Debug\Selection_sort.exe
+D:\Problem_Solving\Selection_sort\Selection_sort\obj\Debug\Selection_sort.pdb

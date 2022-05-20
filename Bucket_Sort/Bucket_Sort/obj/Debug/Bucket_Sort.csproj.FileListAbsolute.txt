@@ -1,0 +1,8 @@
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\bin\Debug\Bucket_Sort.exe.config
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\bin\Debug\Bucket_Sort.exe
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\bin\Debug\Bucket_Sort.pdb
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\obj\Debug\Bucket_Sort.csproj.AssemblyReference.cache
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\obj\Debug\Bucket_Sort.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\obj\Debug\Bucket_Sort.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\obj\Debug\Bucket_Sort.exe
+D:\Problem_Solving\Bucket_Sort\Bucket_Sort\obj\Debug\Bucket_Sort.pdb

@@ -1,0 +1,8 @@
+D:\Problem_Solving\Bubble_sort\Bubble_sort\bin\Debug\Bubble_sort.exe.config
+D:\Problem_Solving\Bubble_sort\Bubble_sort\bin\Debug\Bubble_sort.exe
+D:\Problem_Solving\Bubble_sort\Bubble_sort\bin\Debug\Bubble_sort.pdb
+D:\Problem_Solving\Bubble_sort\Bubble_sort\obj\Debug\Bubble_sort.csproj.AssemblyReference.cache
+D:\Problem_Solving\Bubble_sort\Bubble_sort\obj\Debug\Bubble_sort.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Bubble_sort\Bubble_sort\obj\Debug\Bubble_sort.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Bubble_sort\Bubble_sort\obj\Debug\Bubble_sort.exe
+D:\Problem_Solving\Bubble_sort\Bubble_sort\obj\Debug\Bubble_sort.pdb

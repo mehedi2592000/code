@@ -1,0 +1,8 @@
+D:\Problem_Solving\Redax_sort\Redax_sort\bin\Debug\Redax_sort.exe.config
+D:\Problem_Solving\Redax_sort\Redax_sort\bin\Debug\Redax_sort.exe
+D:\Problem_Solving\Redax_sort\Redax_sort\bin\Debug\Redax_sort.pdb
+D:\Problem_Solving\Redax_sort\Redax_sort\obj\Debug\Redax_sort.csproj.AssemblyReference.cache
+D:\Problem_Solving\Redax_sort\Redax_sort\obj\Debug\Redax_sort.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Redax_sort\Redax_sort\obj\Debug\Redax_sort.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Redax_sort\Redax_sort\obj\Debug\Redax_sort.exe
+D:\Problem_Solving\Redax_sort\Redax_sort\obj\Debug\Redax_sort.pdb

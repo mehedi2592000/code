@@ -1,0 +1,8 @@
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\bin\Debug\Codeforce_1669_B.exe.config
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\bin\Debug\Codeforce_1669_B.exe
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\bin\Debug\Codeforce_1669_B.pdb
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\obj\Debug\Codeforce_1669_B.csproj.AssemblyReference.cache
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\obj\Debug\Codeforce_1669_B.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\obj\Debug\Codeforce_1669_B.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\obj\Debug\Codeforce_1669_B.exe
+D:\Problem_Solving\Codeforce_1669_B\Codeforce_1669_B\obj\Debug\Codeforce_1669_B.pdb
