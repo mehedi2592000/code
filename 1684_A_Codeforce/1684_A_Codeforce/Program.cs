@@ -14,14 +14,10 @@ namespace _1684_A_Codeforce
             for(int i=0;i<q;i++)
             {
                 string w=Console.ReadLine();
-                if(w.Length%2==0)
-                {
-                    Console.WriteLine(w[1]);
-                }
-                else
-                {
-                    Console.WriteLine(w[0]);
-                }
+                
+                
+                    Console.WriteLine(w.Min(x=>x));
+                
             }
             Console.ReadKey();
         }
