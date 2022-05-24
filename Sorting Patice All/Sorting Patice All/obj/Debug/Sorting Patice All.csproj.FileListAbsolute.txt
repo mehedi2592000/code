@@ -1,0 +1,8 @@
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\bin\Debug\Sorting Patice All.exe.config
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\bin\Debug\Sorting Patice All.exe
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\bin\Debug\Sorting Patice All.pdb
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\obj\Debug\Sorting Patice All.csproj.AssemblyReference.cache
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\obj\Debug\Sorting Patice All.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\obj\Debug\Sorting Patice All.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\obj\Debug\Sorting Patice All.exe
+D:\Problem_Solving\Sorting Patice All\Sorting Patice All\obj\Debug\Sorting Patice All.pdb
