@@ -8,6 +8,7 @@ namespace Sorting_Patice_All
 {
     internal class Program
     {
+        /*
         public static void Sore(int[] arr,int n,int i)
         {
             int largest = i;
@@ -54,12 +55,56 @@ namespace Sorting_Patice_All
 
             Console.ReadKey();
         }
+        */
+        public static void countsort(int[] arr,int n)
+        {
+            int max =arr.Max();
+            int min=arr.Min();
+            int size = max - min + 2;
+
+            int[] arr1=new int[size];
+            int[] oute= new int[n];
+
+            for(int i=0;i<size;i++)
+            {
+                arr1[i]=0;
+            }
+
+            for(int i=0;i<n;i++)
+            {
+                arr1[arr[i]]++;
+            }
+
+            for(int i=1;i<size;i++)
+            {
+                arr1[i] += arr1[i-1];
+            }
+
+
+            for(int i=n-1;i>=0;i--)
+            {
+                oute[arr1[arr[i]]-1]=arr[i];
+                arr1[arr[i] - 1]--;
+            }
+
+
+
+            for(int i=0;i<n;i++)
+            {
+                Console.WriteLine(oute[i] + " ");
+            }
+
+            Console.ReadKey();
+        }
+
         static void Main(string[] args)
         {
             int[] arr = { 5, 8, 1, 16, 4, 20, 25 };
             int n=arr.Length;
-            HeapSort(arr, n);
-            Print(arr, n);
+            // HeapSort(arr, n);
+            // Print(arr, n);
+
+            countsort(arr, n);
         }
     }
 }
