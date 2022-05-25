@@ -98,7 +98,7 @@ namespace Sorting_Patice_All
             Console.ReadKey();
         }
         */
-
+        /*
         public static void cs(int[] arr,int n,int p)
         {
             int[] coun = new int[10];
@@ -151,19 +151,46 @@ namespace Sorting_Patice_All
                 cs(arr, n, i);
             }
         }
+        */
+
+        public static void insertionSort(int[] arr,int n)
+        {
+            for(int i=1;i<n;i++)
+            {
+                int q=arr[i];
+                int w = i - 1;
+                for(int j=w;j>=0;j--)
+                {
+                    if(arr[j]>q)
+                    {
+                        int a=arr[j];
+                        arr[j]=arr[j+1];
+                        arr[j + 1] = a;
+                    }
+                }
+            }
+
+            for(int i=0;i<n;i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+            Console.ReadKey();
+        }
 
         static void Main(string[] args)
         {
             int[] arr = { 5, 8, 1, 16, 4, 20, 25 };
             int n=arr.Length;
             // HeapSort(arr, n);
-            
+
 
             //countsort(arr, n);
 
-            ReadoxSort(arr, n);
+            //ReadoxSort(arr, n);
 
-            print(arr, n);
+            //print(arr, n);
+
+            insertionSort(arr, n);
         }
     }
 }
