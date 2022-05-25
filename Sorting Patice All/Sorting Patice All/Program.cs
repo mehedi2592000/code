@@ -56,6 +56,7 @@ namespace Sorting_Patice_All
             Console.ReadKey();
         }
         */
+        /*
         public static void countsort(int[] arr,int n)
         {
             int max =arr.Max();
@@ -96,15 +97,73 @@ namespace Sorting_Patice_All
 
             Console.ReadKey();
         }
+        */
+
+        public static void cs(int[] arr,int n,int p)
+        {
+            int[] coun = new int[10];
+            int[] oute= new int[n];
+
+            for(int i=0;i<10;i++)
+            {
+                coun[i] = 0;
+            }
+
+            for(int i=0;i<n;i++)
+            {
+                coun[(arr[i] / p) % 10]++;
+            }
+
+            for(int i=1;i<10;i++)
+            {
+                coun[i] += coun[i - 1];
+            }
+
+            for(int i=n-1;i>=0;i--)
+            {
+                oute[coun[(arr[i] / p) % 10]-1]=arr[i];
+                coun[(arr[i] / p) % 10]--;
+            }
+
+            for(int i=0;i<n;i++)
+            {
+                arr[i] = oute[i];
+            }
+
+            
+        }
+
+        public static void print(int[] arr,int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(arr[i]);
+
+            }
+            Console.ReadKey();
+        }
+        public static void ReadoxSort(int[] arr,int n)
+        {
+            int mx = arr.Max();
+
+            for(int i=1;mx/i>0;i*=10)
+            {
+                cs(arr, n, i);
+            }
+        }
 
         static void Main(string[] args)
         {
             int[] arr = { 5, 8, 1, 16, 4, 20, 25 };
             int n=arr.Length;
             // HeapSort(arr, n);
-            // Print(arr, n);
+            
 
-            countsort(arr, n);
+            //countsort(arr, n);
+
+            ReadoxSort(arr, n);
+
+            print(arr, n);
         }
     }
 }
