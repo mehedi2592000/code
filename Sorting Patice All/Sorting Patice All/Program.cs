@@ -152,7 +152,7 @@ namespace Sorting_Patice_All
             }
         }
         */
-
+        /*
         public static void insertionSort(int[] arr,int n)
         {
             for(int i=1;i<n;i++)
@@ -176,6 +176,137 @@ namespace Sorting_Patice_All
             }
             Console.ReadKey();
         }
+        */
+        /*
+        public static void Sor(int[] arr,int l,int m,int r)
+        {
+            int q = m - l+1;
+            int w = r - m;
+
+            int[] L=new int[q];
+            int[] R=new int[w];
+
+
+            int i ;
+            int j ;
+
+            for ( i=0;i<q;i++)
+            {
+                L[i]=arr[l+i];
+            }
+
+            for( i=0;i<w;i++)
+            {
+                R[i]=arr[m+1+i];
+            }
+            i = 0;
+            j = 0;
+            int k = l;
+            while(i<q && j<w)
+            {
+                if(L[i]<=R[j])
+                {
+                    arr[k] = L[i];
+                    i++;
+                    k++;
+                }
+                else
+                {
+                    arr[k] = R[j];
+                    j++;
+                    k++;
+                }
+            }
+
+            while(i<q)
+            {
+                arr[k] = L[i];
+                i++;
+                k++;
+            }
+            while(j<w)
+            {
+                arr[k] = R[j];
+                j++;
+                k++;
+            }
+
+           
+
+        }
+
+        public static void print(int[] arr,int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+
+            Console.ReadKey();
+        }
+
+        public static void mergeSort(int[] arr,int l,int r)
+        {
+
+            if (l < r)
+            {
+                int m = l + (r - l) / 2;
+
+                mergeSort(arr, l, m);
+                mergeSort(arr, m + 1, r);
+
+                Sor(arr, l, m, r);
+            }
+
+        }
+        */
+        public static void swap(int[] arr,int i,int j)
+        {
+            int t=arr[i];
+            arr[i]=arr[j];
+            arr[j]=t;
+        }
+
+        public static int Sot(int[] arr,int l,int r)
+        {
+            int pivot=arr[r];
+
+            int j = l - 1;
+
+            for(int i=l;i<r;i++)
+            {
+                if(arr[i] < pivot)
+                {
+                    j++;
+                    swap(arr, i, j);
+                }
+            }
+            swap(arr, j + 1, r);
+            return j + 1;
+        }
+
+        public static void Quicksort(int[] arr,int l,int r)
+        {
+            if(l<r)
+            {
+              int pi=  Sot(arr, l, r);
+
+                Quicksort(arr, l, pi-1);
+                Quicksort(arr, pi+1, r);
+            }
+        }
+
+        public static void print(int[] arr, int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+
+            Console.ReadKey();
+        }
+
+
 
         static void Main(string[] args)
         {
@@ -190,7 +321,15 @@ namespace Sorting_Patice_All
 
             //print(arr, n);
 
-            insertionSort(arr, n);
+            // insertionSort(arr, n);
+
+            // mergeSort(arr, 0,n-1);
+
+            // print(arr, n);
+
+            Quicksort(arr, 0, n - 1);
+
+             print(arr, n);
         }
     }
 }
