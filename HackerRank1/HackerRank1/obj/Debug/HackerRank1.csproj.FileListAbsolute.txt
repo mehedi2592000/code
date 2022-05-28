@@ -1,0 +1,8 @@
+D:\Problem_Solving\HackerRank1\HackerRank1\bin\Debug\HackerRank1.exe.config
+D:\Problem_Solving\HackerRank1\HackerRank1\bin\Debug\HackerRank1.exe
+D:\Problem_Solving\HackerRank1\HackerRank1\bin\Debug\HackerRank1.pdb
+D:\Problem_Solving\HackerRank1\HackerRank1\obj\Debug\HackerRank1.csproj.AssemblyReference.cache
+D:\Problem_Solving\HackerRank1\HackerRank1\obj\Debug\HackerRank1.csproj.SuggestedBindingRedirects.cache
+D:\Problem_Solving\HackerRank1\HackerRank1\obj\Debug\HackerRank1.csproj.CoreCompileInputs.cache
+D:\Problem_Solving\HackerRank1\HackerRank1\obj\Debug\HackerRank1.exe
+D:\Problem_Solving\HackerRank1\HackerRank1\obj\Debug\HackerRank1.pdb
